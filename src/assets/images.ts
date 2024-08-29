@@ -1,2 +1,2 @@
-import logo from "./image/Logo.png";
+import logo from "./image/logo1.png";
 export const images = { logo };

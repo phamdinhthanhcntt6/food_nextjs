@@ -7,14 +7,14 @@ export default function HomeLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en" className="flex">
-      <body className="flex">
+    <div className="flex h-screen w-full bg-[#F0F1F3]">
+      <div className="flex w-full gap-1">
         <Sider />
-        <div>
+        <div className="w-full">
           <Header />
           {children}
         </div>
-      </body>
-    </html>
+      </div>
+    </div>
   );
 }
